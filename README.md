@@ -1,7 +1,7 @@
 ### Advent of Code - Day 1 Solution 🎄
 
 ## Overview 📜
-Welcome to the solution for Advent of Code Day 1! 🎅 This repository contains lists1.c, a C program that solves the challenge by reading pairs of 5-digit numbers from lists.txt, sorting each column (left and right), and calculating the sum of absolute differences between sorted pairs. It outputs the line count and the total distance, which is the answer to the puzzle! ✅
+Welcome to the solution for Advent of Code Day 1! 🎅 This repository contains AOC_DAY_1.c, a C program that solves the challenge by reading pairs of 5-digit numbers from lists.txt, sorting each column (left and right), and calculating the sum of absolute differences between sorted pairs. It outputs the line count and the total distance, which is the answer to the puzzle! ✅
 # Challenge Description ❓
 
 * Input: A text file (lists.txt) with up to 1000 lines, each containing two 5-digit numbers separated by spaces (e.g., 80784 47731). 📥
@@ -10,7 +10,7 @@ Welcome to the solution for Advent of Code Day 1! 🎅 This repository contains 
 
 ## Program Details 💻
 
-File: lists1.c
+File: AOC_DAY_1.c
 * Language: C
 * Functions:
 * countLines: Counts lines in lists.txt by reading characters and counting newlines. 📏
@@ -70,11 +70,11 @@ lists.txt in the same directory. 📂
 
 
 # Compile:
-gcc lists1.c -o lists1
+gcc AOC_DAY_1.c -o AOC_DAY_1
 
 
 # Run:
-./lists1
+./AOC_DAY_1
 
 
 # Output:
