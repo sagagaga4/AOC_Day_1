@@ -76,6 +76,7 @@ int returnDist(char *filename) {
                 secondNum[line] = secondNum[line] * 10 + secondCol[line][k];
             }
             line++;
+            line++;
             i = j = count = 0;
             if (line >= 1000) break;
         }
